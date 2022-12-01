@@ -66,9 +66,7 @@ body{
 .profile-card .media-buttons{
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-top: 15px;
-    
 }
 
 .media-buttons .link{
@@ -101,7 +99,7 @@ body{
     background-color: #70b5f9;
 }
 
-.profile-card .button{
+.profile-card .buttons{
     display: flex;
     align-items: center;
     margin-top: 25px;
