@@ -112,12 +112,18 @@ body{
     border: none;
     border-radius: 24px;
     margin: 0 10px;
-    padding: 8px;
+    padding: 8px 24px;
     background-color: #7A0BC0;
+    -webkit-box-shadow: -2px 0px 31px 3px rgba(122,11,192,1);
+    -moz-box-shadow: -2px 0px 31px 3px rgba(122,11,192,1);
+    box-shadow: -2px 0px 31px 3px rgba(122,11,192,1);
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
 .buttons .button:hover{
     background-color: #1A1A40;
+    -webkit-box-shadow: 0px 0px 50px 13px rgba(26,26,64,1);
+    -moz-box-shadow: 0px 0px 50px 13px rgba(26,26,64,1);
+    box-shadow: 0px 0px 50px 13px rgba(26,26,64,1);
 }
