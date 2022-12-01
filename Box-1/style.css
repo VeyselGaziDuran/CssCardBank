@@ -14,7 +14,7 @@ body{
 
 .profile-card{
     display: flex;
-    max-width: 370px;
+    max-width: 470px;
     width: 100%;
     background-color: #270082;
     border-radius: 24px;
@@ -61,4 +61,40 @@ body{
     font-weight: 400;
 }
 
-.profile-card .media-buttons
+.profile-card .media-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+.media-buttons .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    text-decoration: none;
+    background-color: #7A0BC0;
+}
+
+.media-buttons .fa{
+    background-color: #4267b2;
+}
+
+.media-buttons .tw{
+    background-color: #1d9bf0;
+}
+
+.media-buttons .in{
+    background-color: #ff3040;
+}
+
+.media-buttons .li{
+    background-color: #70b5f9;
+}
